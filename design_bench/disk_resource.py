@@ -15,7 +15,7 @@ SERVER_URL = "https://storage.googleapis.com/design-bench"
 
 
 DATA_DIR = os.path.join(
-    'store/dmh', 'design_bench_data')
+    'store/nosnap', 'design_bench_data')
 
 
 def get_confirm_token(response):
