@@ -8,10 +8,14 @@ SERVER_URL = "https://storage.googleapis.com/design-bench"
 
 
 # the global path to a folder that stores all data files
+# DATA_DIR = os.path.join(
+#     os.path.abspath(
+#     os.path.dirname(
+#     os.path.dirname(os.path.abspath(__file__)))), 'design_bench_data')
+
+
 DATA_DIR = os.path.join(
-    os.path.abspath(
-    os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))), 'design_bench_data')
+    'store/dmh', 'design_bench_data')
 
 
 def get_confirm_token(response):
